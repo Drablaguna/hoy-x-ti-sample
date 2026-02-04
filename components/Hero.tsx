@@ -46,20 +46,20 @@ const Hero: React.FC = () => {
             <span className="text-amber-500">Continuar.</span>
           </h1>
           <p className="mt-6 text-xl text-slate-100 leading-relaxed max-w-lg drop-shadow-md">
-            Creativos por el Bienestar conecta a artistas que organizan funciones a beneficio para recaudar fondos para colegas que enfrentan crisis médicas, lesiones o hospitalización.
+            Hoy Por Ti conecta a artistas que organizan funciones a beneficio para recaudar fondos para colegas que enfrentan crisis médicas, lesiones o hospitalización.
           </p>
           <div className="mt-10 grid grid-cols-1 sm:flex gap-4">
             <a 
               className="py-4 px-10 inline-flex justify-center items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-brand-600 text-white hover:bg-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 transition-all shadow-2xl shadow-brand-900/50" 
               href="#donate"
             >
-              Donar al Fondo
+              Donar al Artista
             </a>
             <a 
               className="py-4 px-10 inline-flex justify-center items-center gap-x-2 text-md font-bold rounded-full border-2 border-white/80 text-white hover:bg-white hover:text-brand-950 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-all backdrop-blur-sm" 
               href="#events"
             >
-              Actuar por un Colega
+              Donar al Proyecto
             </a>
           </div>
         </div>

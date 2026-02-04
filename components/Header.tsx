@@ -6,8 +6,8 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white/90 backdrop-blur-md text-sm py-4 dark:bg-neutral-900/90 border-b border-slate-100 dark:border-neutral-800">
       <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
         <div className="flex items-center justify-between">
-          <a className="flex-none text-2xl font-serif font-bold text-brand-900 dark:text-brand-500 focus:outline-none focus:opacity-80" href="#" aria-label="Creativos por el Bienestar">
-            Creativos <span className="text-amber-600">por el</span> Bienestar
+          <a className="flex-none text-2xl font-serif font-bold text-brand-900 dark:text-brand-500 focus:outline-none focus:opacity-80" href="#" aria-label="Hoy Por Ti">
+            Hoy Por Ti
           </a>
           <div className="sm:hidden">
             <button type="button" className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-brand-600" data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse" aria-label="Toggle navigation">

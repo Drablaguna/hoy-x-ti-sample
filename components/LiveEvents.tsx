@@ -9,7 +9,7 @@ const LiveEvents: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 lg:mb-16 gap-6">
           <div className="max-w-xl">
             <span className="py-1 px-3 mb-4 inline-block rounded-full text-xs font-semibold bg-brand-100 text-brand-800 dark:bg-brand-900/30 dark:text-brand-500 uppercase tracking-widest">Rastreador de Eventos</span>
-            <h2 className="text-4xl font-bold text-brand-900 dark:text-white mt-4 leading-tight">Funciones a Beneficio</h2>
+            <h2 className="text-4xl font-bold text-brand-900 dark:text-white mt-4 leading-tight">Funciones y Talleres a Beneficio</h2>
             <p className="mt-4 text-slate-600 dark:text-neutral-400">
               El 100% de la venta de boletos financia apoyos de emergencia. Únete a una noche de impacto.
             </p>
@@ -55,11 +55,11 @@ const LiveEvents: React.FC = () => {
 
                 <div className="mt-6 flex items-center justify-between gap-x-4 pt-4 border-t border-slate-50 dark:border-neutral-800">
                   <div>
-                    <p className="text-[9px] text-slate-400 uppercase font-bold dark:text-neutral-500">Boletos</p>
+                    <p className="text-[9px] text-slate-400 uppercase font-bold dark:text-neutral-500">Cuota Mínima</p>
                     <p className="text-lg font-bold text-brand-900 dark:text-white">{event.price}</p>
                   </div>
                   <button type="button" className="py-2 px-5 inline-flex items-center gap-x-2 text-xs font-bold rounded-full border border-transparent bg-brand-900 text-white hover:bg-brand-800 focus:outline-none transition-all shadow-sm shrink-0">
-                    Comprar
+                    Reservar
                   </button>
                 </div>
               </div>

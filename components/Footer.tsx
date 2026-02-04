@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-16">
           <div className="col-span-full lg:col-span-2">
             <a className="text-3xl font-serif font-bold text-white mb-6 block focus:outline-none" href="#" aria-label="Marca">
-              Creativos <span className="text-amber-500 italic">por el</span> Bienestar
+              Hoy Por Ti
             </a>
             <p className="text-brand-100/60 dark:text-neutral-400 leading-relaxed mb-8 max-w-sm">
               Proporcionamos apoyos de emergencia a artistas en crisis, asegurando que las emergencias médicas no terminen con carreras creativas de toda una vida.
@@ -28,8 +28,7 @@ const Footer: React.FC = () => {
             <div className="grid gap-y-4 text-brand-100/60 dark:text-neutral-500 text-sm">
               <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Fondo de Apoyo</a></p>
               <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Solicitar Ayuda</a></p>
-              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Organizar Función</a></p>
-              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Reporte de Impacto</a></p>
+              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Sé parte</a></p>
             </div>
           </div>
 
@@ -46,20 +45,17 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-amber-500 mb-6">Contacto</h4>
             <div className="grid gap-y-4 text-brand-100/60 dark:text-neutral-500 text-sm">
-              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Noticias</a></p>
               <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Escríbenos</a></p>
-              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Bolsa de Trabajo</a></p>
-              <p><a className="hover:text-white focus:outline-none focus:text-white transition-colors" href="#">Accesibilidad</a></p>
             </div>
           </div>
         </div>
 
         <div className="pt-10 border-t border-brand-900 dark:border-neutral-800 flex flex-col sm:flex-row justify-between items-center gap-6 text-brand-100/30 dark:text-neutral-600 text-[13px] font-medium">
-          <p>© 2024 Creativos por el Bienestar. Organización registrada. Apoyando la resiliencia artística.</p>
+          <p>© 2026 Hoy Por Ti - Riviera Maya</p>
           <div className="flex gap-x-8">
-            <a href="#" className="hover:text-brand-100 focus:outline-none">Privacidad</a>
+            {/* <a href="#" className="hover:text-brand-100 focus:outline-none">Privacidad</a>
             <a href="#" className="hover:text-brand-100 focus:outline-none">Términos</a>
-            <a href="#" className="hover:text-brand-100 focus:outline-none">Legal</a>
+            <a href="#" className="hover:text-brand-100 focus:outline-none">Legal</a> */}
           </div>
         </div>
       </div>
